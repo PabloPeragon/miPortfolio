@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Pablo Jesú Peragón Garrido - Desarrollador iOS nativo y Web Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <h1><a href="#inicio">Desarrollador iOS</a></h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sobre-mi">Sobre Mí</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        
+        <section id="inicio" class="hero">
+            <div class="hero-content">
+                <p>¡Hola, soy</p>
+                <h1>Pablo Peragón</h1>
+                <h2 class="typing-effect">Desarrollador iOS nativo y Web. <span class="especialidad">Swift, Objetive-C, SwiftUI, UIKit, HTLM, CSS.</span></h2>
+                <p>Construyo experiencias digitales funcionales y atractivas.</p>
+                <a href="#proyectos" class="btn primary-btn">Ver Proyectos Destacados</a>
+                <a href="/archivos/cv iOS(2).pdf" class="btn secondary-btn" target="_blank">Descargar CV</a>
+            </div>
+            <div class="hero-image">
+                <img src="/images/fotoWeb.jpg" alt="Foto de perfil de Pablo">
+            </div>
+        </section>
+
+        <section id="sobre-mi" class="about">
+            <h2>Desarrollador Mobile iOS | Pasión por el Ecosistema Apple</h2>
+            <div class="about-content">
+                <p>
+                    Soy <strong>Pablo Peragón</strong>, un desarrollador enfocado en el mundo <strong>Mobile iOS Nativo</strong>. Mi carrera se basa en la disciplina y la capacidad de adaptación, habilidades forjadas tanto en mi experiencia como técnico de reparación de ordenadores como en el sector de la automoción. Esta base me ha proporcionado una perspectiva única en la <strong>resolución de problemas</strong> y la <strong>atención al detalle</strong>, cualidades esenciales que aplico ahora a la ingeniería de software.
+                <p>
+                    Mi transición al desarrollo móvil ha sido reforzada por la formación intensiva en el bootcamp "Mobile iOS" de KeepCoding. Domino el stack nativo de Apple, incluyendo <strong>Swift, SwiftUI, UIKit y Objective-C</strong> para el desarrollo de aplicaciones robustas. Tengo experiencia práctica en la implementación de <strong>Patrones de Diseño</strong>, gestión de datos con <strong>Core Data / Swift Data</strong>, manejo de <strong>asincronismo</strong> y <strong>Programación Reactiva</strong>. Además, he explorado entornos de vanguardia como <strong>tvOS</strong> y el desarrollo inmersivo con <strong>VisionOS y Reality Kit</strong>.
+                </p>
+
+                <p>
+                    Complemento mi especialización iOS con habilidades de <strong>Desarrollador Full Stack Jr.</strong>, habiendo trabajado en proyectos con <strong>Python, Java, HTML y CSS</strong>, lo que me permite comunicarme eficazmente con equipos Backend. Soy un profesional con una <strong>inquietud constante por aprender y evolucionar</strong>. Estoy ansioso por contribuir a proyectos innovadores, enfrentar nuevos desafíos en el sector tech y seguir creciendo en el mundo de la programación.
+                </p>
+                <ul class="details">
+                    <li><strong>Email:</strong> <a href="mailto:pabloperagon@gmail.com">pabloperagon@gmail.com</a></li>
+                    <li><strong>Ubicación:</strong> Jamilena, España</li>
+                    <li><strong>Interes:</strong> Por el desarrollo de apps iOS, me gusta estar siempre actualizado en el desarrollo iOS.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="habilidades" class="skills">
+            <h2>Mis Habilidades Técnicas</h2>
+            <div class="skills-container">
+                
+                <div class="skill-category">
+                    <h3><i class="fas fa-desktop"></i>iOS</h3>
+                    <ul class="skill-list">
+                        <li>Swift</li>
+                        <li>Objetive-C</li>
+                        <li>SwiftUI y UIKit</li>
+                        <li>Patrones de arquitetura principales MVVM, VIPER</li>
+                        <li>Principios SOLID y Clean Code.</li>
+                    </ul>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-server"></i> Backend</h3>
+                    <ul class="skill-list">
+                        <li>Python</li>
+                        <li>Bases de Datos: PostgreSQL / MySQL / MongoDB</li>
+                        <li>APIs RESTful</li>
+                    </ul>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-tools"></i> Herramientas y DevOps</h3>
+                    <ul class="skill-list">
+                        <li>Git & GitHub/GitLab</li>
+                        <li>Xcode, Visual Studio Code</li>
+                        <li>Testing: Unit Testing, UI Testing</li>
+                        <li>Metodologías Ágiles (Scrum)</li>
+                    </ul>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="proyectos" class="projects">
+            <h2>Proyectos Destacados</h2>
+            <div class="projects-grid">
+                
+                <article class="project-card">
+                    <img src="images/imaProLuz.jpg" alt="Miniatura del proyecto1">
+                    <h3>App precio luz</h3>
+                    <p class="project-description">
+                        La app precio luz por horas es una app informativa diseñada para hogares que tengan tarifa de luz al precio de mercado que te permite aprovechar las horas de luz más baratas.
+                    </p>
+                    <p class="project-tech">**Tecnologías:** Swift, SwiftUI, MVVM-R, Core Data, KeyChain, URLSession/API REST</p>
+                    <div class="project-links">
+                        <a href="https://github.com/PabloPeragon/appPrecioLuz/tree/main" target="_blank" class="btn small-btn outline-btn">Ver Código</a>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <img src="images/goku.jpg" alt="Miniatura del proyecto1">
+                    <h3>App basada en la serie Goku</h3>
+                    <p class="project-description">
+                        App iOS de Dragon Ball con patrón de diseño MVVM, desarrollada con UIkit usando una api web. Programación reactiva con Combine y Async Await para las llamadas de red. CombineCocoa para las vistas.
+                    </p>
+                    <p class="project-tech">**Tecnologías:** Swift, UIKit, MVVM, Combien, Async-Await, CombineCocoa, API REST</p>
+                    <div class="project-links">
+                        <a href="https://github.com/PabloPeragon/dragonball" target="_blank" class="btn small-btn outline-btn">Ver Código</a>
+                    </div>
+                </article>
+
+                
+                </div>
+        </section>
+
+        <section id="contacto" class="contact">
+            <h2>Hablemos</h2>
+            <p>
+                Estoy disponible para nuevas oportunidades y proyectos freelance. Envíame un mensaje y te responderé lo antes posible.
+            </p>
+
+            <form action="https://formsubmit.co/pabloperagon@gmail.com" method="POST" class="contact-form">
+                <input type="hidden" name="_next" value="https://github.com/PabloPeragon" />
+                <!-- Cambiar la dirección de github por la de la web -->
+
+
+                <div class="form-group">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" rows="6" required></textarea>
+                </div>
+                <button type="submit" class="btn primary-btn submit-btn">Enviar Mensaje</button>
+            </form>
+            
+            <div class="contact-social">
+                <h3>O encuéntrame en:</h3>
+                <a href="https://www.linkedin.com/in/pabloperagongarrido/" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
+                <a href="https://github.com/PabloPeragon" target="_blank"><i class="fab fa-github fa-2x"></i></a>
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2025 Pablo Peragón. Desarrollado con 💙 y código limpio.</p>
+            <p><a href="#inicio">Volver arriba</a></p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+
+</body>
+</html>
